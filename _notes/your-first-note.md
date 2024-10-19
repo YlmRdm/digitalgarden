@@ -4,7 +4,7 @@ title: Your first seed
 
 ### Welcome!
 
-This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory. 
+This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory.
 
 ### Link syntax
 
@@ -17,7 +17,7 @@ To link to another note, you can use multiple syntaxes. The following four use t
 
 You can organize notes in subdirectories and link them normally. For example, the links above all point to the `_notes/animals/cats.md` file. Here's another example: [[tigers]].
 
-Non-latin languages are supported: [[안녕하세요]]; so are accents/diacritics: [[bon appétit!]]
+Non-latin languages are supported: [[안녕하세요]]; so are accents/diacritics: [[Increasing upload size limits PHP]]
 
 Dashes and underscores in file names are supported, and may be omitted in the bracket link syntax. As an example, the `your-first-note.md` file can be linked to with [[your first note]] or [[your-first-note]], or even [[yOuR-FiRsT Note]].
 
@@ -46,6 +46,7 @@ You may embed media files within a note using HTML5 media tags. Here's an exampl
 
 "Jazzy Frenchy" by Benjamin Tissot from bensound.com
 <audio controls>
+
   <source src="{{ site.baseurl }}/assets/jazzyfrenchy.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
@@ -102,8 +103,7 @@ You can add code blocks with full syntax color highlighting by wrapping code sni
 
 ```js
 // Here's a bit of JavaScript:
-if (a === b || c == d)
-  console.log('hello!')
+if (a === b || c == d) console.log("hello!");
 ```
 
 ```rb
@@ -116,7 +116,6 @@ end
 ```sh
 $ cat /dev/urandom | grep "the answer to life" # shell scripts look nice too
 ```
-
 
 ### Next steps
 

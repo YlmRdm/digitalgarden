@@ -17,7 +17,7 @@ To link to another note, you can use multiple syntaxes. The following four use t
 
 You can organize notes in subdirectories and link them normally. For example, the links above all point to the `_notes/animals/cats.md` file. Here's another example: [[tigers]].
 
-Non-latin languages are supported: [[안녕하세요]]; so are accents/diacritics: [[Increasing upload size limits PHP]]
+So are accents/diacritics: [[Increasing upload size limits PHP]]
 
 Dashes and underscores in file names are supported, and may be omitted in the bracket link syntax. As an example, the `your-first-note.md` file can be linked to with [[your first note]] or [[your-first-note]], or even [[yOuR-FiRsT Note]].
 
@@ -95,7 +95,7 @@ And of course, images look great:
 
 You can also ==highlight some content== by wrapping it with `==`.
 
-Non-latin languages are supported too: ==你好==, ==안녕하세요==, ==こんにちは==.
+Non-latin languages are supported too: ==你好==, ==こんにちは==.
 
 ### Code syntax highlighting
 
